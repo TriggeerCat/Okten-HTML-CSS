@@ -1,0 +1,26 @@
+﻿#first-list>ul>li:nth-child(even)
+{
+    color: pink;
+}
+
+#second-list>ul>li:nth-child(odd)
+{
+    font-size: 22px;
+}
+
+#third-list>ul>li:nth-child(2n+4):after
+{
+    content: "!";
+
+}
+
+#fourth-list>ul>li:last-child
+{
+    color: purple;
+}
+
+#fifth-list>ul>li:first-letter
+{
+    font-size: 30px;
+    color: darkred;
+}

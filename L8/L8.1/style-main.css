@@ -1,0 +1,47 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
+*
+{
+    font-family: "Inder", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+}
+
+.flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body
+{
+    flex-wrap: wrap;
+    gap: 32px;
+    height: 100vh;
+}
+
+.wrap
+{
+    flex-direction: column;
+    gap: 20px;
+    flex-basis: 30%;
+}
+
+.bold
+{
+    color: #000;
+    font-size: 20px;
+    line-height: 120%; /* 24px */
+}
+
+.normal
+{
+    color: #3C3C43;
+    font-size: 13px;
+    line-height: 120%; /* 15.6px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}

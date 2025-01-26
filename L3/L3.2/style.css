@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    text-align: center;
+}
+
+div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    padding: 0 100px 0 100px;
+}
+
+.header
+{
+    background-color: pink;
+    font-size: 1.5em;
+}
+
+.footer
+{
+    background-color: cornflowerblue;
+    font-size: 1.5em;
+}

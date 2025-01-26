@@ -1,0 +1,16 @@
+﻿*
+{
+    margin: 0;
+}
+
+.not-main
+{
+    background-color: #D9D9D9;
+    height: 20vh;
+}
+
+.main
+{
+    background-color: #A4A4A4;
+    height: 60vh;
+}

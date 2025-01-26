@@ -1,0 +1,29 @@
+*
+{
+    margin: 0;
+}
+
+.wrap
+{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: burlywood;
+}
+
+.box
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 0.1s;
+}
+
+.box:hover
+{
+    border-radius: 50%;
+    background-color: dimgrey;
+    transition: 0.1s;
+}

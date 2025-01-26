@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+}
+
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.head-and-footers
+{
+    background-color: #D9D9D9;
+    height: 20vh;
+}
+
+.side
+{
+    background-color: #C0BDBD;
+    height: 100%;
+    width: 25vw;
+}
+
+.main
+{
+    background-color: #A4A4A4;
+    height: 100%;
+    width: 50vw;
+}

@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+}
+
+div
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkseagreen;
+    gap: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.month
+{
+    flex-direction: column;
+    background-color: lemonchiffon;
+    width: 14%;
+    transition: 0.1s;
+}
+
+.header
+{
+    font-size: 20px;
+}
+
+.month:hover
+{
+    transform: scale(1.1);
+    transition: 0.1s;
+}

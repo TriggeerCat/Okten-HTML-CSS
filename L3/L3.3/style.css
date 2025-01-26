@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0 100px;
+    gap: 50px;
+}
+
+.img
+{
+    width: 10vh;
+    height: 10vh;
+}
+
+.img img
+{
+    width: 10vh;
+    height: 10vh;
+}
+
+#header
+{
+    background-color: ghostwhite;
+    font-size: 1.5em;
+}
+
+#bodyer
+{
+    background-color: pink;
+    font-size: 1.5em;
+}
+
+#footer
+{
+    background-color: cornflowerblue;
+    font-size: 1.5em;
+}

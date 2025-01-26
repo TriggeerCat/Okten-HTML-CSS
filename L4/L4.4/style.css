@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+}
+
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p
+{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.black-font
+{
+    color: black;
+}
+
+header
+{
+    background-color: #8D8484;
+    height: 20vh;
+}
+
+footer
+{
+    background-color: #BDBDBD;
+    height: 20vh;
+}
+
+main
+{
+    height: 60vh;
+}
+
+section
+{
+    height: 100%;
+}
+
+.left
+{
+    width: 60%;
+}
+
+.left .up
+{
+    background-color: #776969;
+    height: 20vh;
+}
+
+.left .middle
+{
+    background-color: #643030;
+    height: 20vh;
+}
+
+.left .down
+{
+    background-color: #441818;
+    height: 20vh;
+}
+
+.right
+{
+    width: 40%;
+}
+
+.right .up
+{
+    background-color: #937575;
+    height: 30vh;
+}
+
+.right .down
+{
+    background-color: #644C4C;
+    height: 30vh;
+}
+

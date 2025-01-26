@@ -1,0 +1,40 @@
+﻿body
+{
+    font-size: 4em;
+    font-family: Bahnschrift, serif;
+}
+
+div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.header
+{
+    background-color: seagreen;
+    height: 50vh;
+}
+
+.main
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section
+{
+    background-color: darkseagreen;
+    height: 30vh;
+    width: 32vw;
+    margin-bottom: 0;
+}
+
+.address
+{
+    background-color: darkolivegreen;
+    height: 70vh;
+}

@@ -1,0 +1,49 @@
+*
+{
+    margin: 0;
+}
+
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header
+{
+    background-color: #D9D9D9;
+    height: 5vh;
+}
+
+footer
+{
+    background-color: #D9D9D9;
+    height: 10vh;
+}
+
+main
+{
+    background-color: #C1C1C1;
+    height: 85vh;
+}
+
+.left
+{
+    background-color: #A4A4A4;
+    height: 100%;
+    width: 30vw;
+}
+
+.right
+{
+    background-color: #6B6161;
+    height: 100%;
+    width: 40vw;
+}
+
+.up
+{
+    background-color: #7F7A7A;
+    height: 50%;
+}

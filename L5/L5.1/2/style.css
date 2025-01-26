@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+}
+
+.wrap
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    height: 100vh;
+}
+
+.box
+{
+    width: 10vh;
+    height: 20vh;
+    background-color: darkblue;
+    animation: kinda-dvd 2s infinite linear;
+}
+
+@keyframes kinda-dvd
+{
+    from
+    {
+        transform: translate(0vh, -20vh);
+    }
+
+    25%
+    {
+        background-color: darkgreen;
+        transform: translate(20vh, 0vh) scale(2, 0.5);
+    }
+
+    50%
+    {
+        background-color: goldenrod;
+        transform: translate(0vh, 20vh);
+    }
+
+    75%
+    {
+        background-color: darkred;
+        transform: translate(-20vh, 0vh) scale(2, 0.5);
+    }
+
+    to
+    {
+        transform: translate(0vh, -20vh);
+    }
+}

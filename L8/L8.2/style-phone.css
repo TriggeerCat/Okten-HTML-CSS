@@ -1,0 +1,27 @@
+@media screen and (max-width: 480px)
+{
+    body
+    {
+        margin: 100px;
+    }
+
+    .item
+    {
+        width: 348px;
+    }
+
+    img
+    {
+        width: 128px;
+    }
+
+    .wrap-outer
+    {
+        flex-wrap: wrap;
+    }
+
+    .wrap-inner
+    {
+        flex-wrap: wrap;
+    }
+}

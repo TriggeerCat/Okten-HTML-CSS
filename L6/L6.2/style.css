@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    font-family: Bahnschrift, serif;
+}
+
+.flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body
+{
+    background-color: lightseagreen;
+    height: 100vh;
+}
+
+h1
+{
+    background-color: lightgrey;
+    border-radius: 20px 20px 0 0;
+    height: 25%;
+    font-size: 2.7em;
+}
+
+.wrap
+{
+    width: 40vw;
+    height: 60vh;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#registration-form
+{
+    width: 70%;
+    margin: auto;
+    gap: 20px;
+    height: 60%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.input
+{
+    width: 100%;
+    height: 3em;
+    border-radius: 0;
+}
+
+.footer
+{
+    width: 100%;
+    justify-content: space-between;
+}
+
+input
+{
+    border: lightgrey 2px solid;
+}
+
+#checkbox
+{
+    appearance: none;
+    border: lightgrey 1px solid;
+    width: 1em;
+    height: 1em;
+    margin: -2px;
+}
+
+#checkbox:checked
+{
+    background-image: url("favicon-32x32.png");
+    background-size: cover;
+}
+
+input[type="submit"]
+{
+    height: 3em;
+    width: 10em;
+}

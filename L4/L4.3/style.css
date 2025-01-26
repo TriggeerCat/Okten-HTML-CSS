@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+}
+
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-outer
+{
+    height: 60vh;
+}
+
+.wrap-inner
+{
+    height: 100%;
+    width: 50vw;
+}
+
+.head-and-footers
+{
+    background-color: #D9D9D9;
+    height: 20vh;
+}
+
+.side
+{
+    background-color: #C0BDBD;
+    height: 100%;
+    width: 25vw;
+}
+
+.inner-up
+{
+    background-color: #827878;
+    height: 50%;
+}
+
+.inner-down
+{
+    background-color: #B7ADAD;
+    height: 50%;
+}
